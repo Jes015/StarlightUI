@@ -1,0 +1,17 @@
+---
+title: Button
+description: Button component
+---
+
+import { Tabs, TabItem } from '@astrojs/starlight/components';
+import { Button } from '../../../components';
+import { Code } from 'astro:components';
+
+<Tabs>
+  <TabItem label="Preview">
+    <Button>Holaaa</Button>
+  </TabItem>
+  <TabItem label="React">
+    <Code code={`\<\Button>Holaaa</Button>`} lang="tsx" />
+  </TabItem>
+</Tabs>
